@@ -1,5 +1,7 @@
 # Blink Kameras
 
+![Blink Kameras](https://raw.githubusercontent.com/DerGnom1977/ha-blink-kameras/main/images/preview.png)
+
 Bewegungsmeldung, Ruhezeit und Scharfschaltung für Blink-Kameras (Flur, Büro).
 
 Python-Integration für Home Assistant (HACS). Sie ersetzt das bisherige YAML-Paket
