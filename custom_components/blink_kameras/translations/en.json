@@ -1,0 +1,48 @@
+{
+  "config": {
+    "step": {
+      "user": {
+        "title": "Blink Kameras",
+        "description": "Bewegungsmeldung, Ruhezeit und Scharfschaltung für Blink-Kameras (Flur, Büro).",
+        "data": {
+          "notify_person1": "Notify-Dienst Person 1",
+          "notify_person2": "Notify-Dienst Person 2",
+          "flur_motion": "Flur: Bewegungssensor",
+          "flur_camera": "Flur: Kamera",
+          "flur_detect": "Flur: Schalter Bewegungserkennung",
+          "buero_motion": "Büro: Bewegungssensor",
+          "buero_camera": "Büro: Kamera",
+          "buero_detect": "Büro: Schalter Bewegungserkennung",
+          "modus_entity": "Anwesenheits-Modus (Integration Anwesenheit)",
+          "anw_kamera_push": "Anwesenheit: Kamera-Push",
+          "anw_kamera_weitere": "Anwesenheit: weitere Kameras",
+          "clip_dir": "Ordner für gespeicherte Clips"
+        }
+      }
+    },
+    "abort": {
+      "single_instance_allowed": "Es ist nur eine Instanz erlaubt."
+    }
+  },
+  "options": {
+    "step": {
+      "init": {
+        "title": "Blink Kameras",
+        "data": {
+          "notify_person1": "Notify-Dienst Person 1",
+          "notify_person2": "Notify-Dienst Person 2",
+          "flur_motion": "Flur: Bewegungssensor",
+          "flur_camera": "Flur: Kamera",
+          "flur_detect": "Flur: Schalter Bewegungserkennung",
+          "buero_motion": "Büro: Bewegungssensor",
+          "buero_camera": "Büro: Kamera",
+          "buero_detect": "Büro: Schalter Bewegungserkennung",
+          "modus_entity": "Anwesenheits-Modus (Integration Anwesenheit)",
+          "anw_kamera_push": "Anwesenheit: Kamera-Push",
+          "anw_kamera_weitere": "Anwesenheit: weitere Kameras",
+          "clip_dir": "Ordner für gespeicherte Clips"
+        }
+      }
+    }
+  }
+}

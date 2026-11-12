@@ -1,0 +1,15 @@
+{
+  "domain": "blink_kameras",
+  "name": "Blink Kameras",
+  "codeowners": [
+    "@DerGnom1977"
+  ],
+  "config_flow": true,
+  "dependencies": [],
+  "documentation": "https://github.com/DerGnom1977/ha-blink-kameras",
+  "integration_type": "service",
+  "iot_class": "calculated",
+  "issue_tracker": "https://github.com/DerGnom1977/ha-blink-kameras/issues",
+  "requirements": [],
+  "version": "1.0.0"
+}

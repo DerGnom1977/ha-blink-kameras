@@ -1,0 +1,37 @@
+# Dashboard für Home Assistant: Einstellungen → Dashboards → Dashboard hinzufügen,
+# dann oben rechts ⋮ → Raw-Konfigurationseditor und diesen Inhalt einfügen.
+title: Blink Kameras
+views:
+- title: Blink Kameras
+  path: blink_kameras
+  icon: mdi:view-dashboard
+  cards:
+  - type: entities
+    title: Kameras
+    entities:
+    - switch.blink_push_flur
+    - select.blink_aktion_flur
+    - switch.blink_push_buero
+    - select.blink_aktion_buero
+  - type: entities
+    title: Meldungen
+    entities:
+    - switch.blink_frisches_bild
+    - select.blink_wann
+    - number.blink_pause
+    - switch.blink_ziel_person1
+    - switch.blink_ziel_person2
+  - type: entities
+    title: Ruhezeit
+    entities:
+    - switch.blink_ruhezeit_aktiv
+    - time.blink_ruhe_von
+    - time.blink_ruhe_bis
+  - type: entities
+    title: Anwesenheit
+    entities:
+    - switch.blink_mit_anwesenheit
+  - type: entities
+    title: Werkzeuge
+    entities:
+    - button.blink_standardwerte
